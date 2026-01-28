@@ -1,7 +1,7 @@
 body{
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: #000;
     padding: 40px;
 }
 h1{
@@ -11,7 +11,7 @@ h2{
     color:#555;
 }
 ul{
-    background:#ffffff;
+    background:#615959ad;
     padding: 20px;
     border-radius: 8px;
     width: fit-content;
@@ -36,8 +36,21 @@ a:hover{
 }
 .dark-mode{
     background-color: #121212;
-    color: #ffffff;
+    color: #fff;
 
+}
+
+.button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+button hover{
+    background-color: #555;
 }
 .project-container{
     display: flex;

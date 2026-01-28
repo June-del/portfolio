@@ -1,7 +1,10 @@
-const button=document.getElementById("welcomeBtn");
-button.addEventListener("click", ()=> {
+const welcomeBtn=document.getElementById("welcomeBtn");
+const themeBtn=document.getElementById("themeBtn")
+welcomeBtn.addEventListener("click", ()=> {
+    welcomeBtn.textContent="Thanks for visiting!";
+    welcomeBtn.style.backgroundColor="#4CAF50";
+    welcomeBtn.style.color="white";
+});
+themeBtn.addEventListener("click",()=>{
     document.body.classList.toggle("dark-mode");
-    button.textContent="Thanks for visiting!";
-    button.style.backgroundColor="#4CAF50";
-    button.style.color="white";
 });
