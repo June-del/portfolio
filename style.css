@@ -5,16 +5,13 @@ body{
     padding: 40px;
 }
 h1{
-    color:#c6882a;
+    color:#9c8e9c;
 }
 h2{
-    color:#555;
+    color:#958b95;
 }
-ul{
-    background:#615959ad;
-    padding: 20px;
-    border-radius: 8px;
-    width: fit-content;
+h3{
+    color: #827a86;
 }
 a{
     color:#0066cc;

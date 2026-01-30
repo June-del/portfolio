@@ -1,8 +1,8 @@
 const welcomeBtn=document.getElementById("welcomeBtn");
 const themeBtn=document.getElementById("themeBtn")
 welcomeBtn.addEventListener("click", ()=> {
-    welcomeBtn.textContent="Thanks for visiting!";
-    welcomeBtn.style.backgroundColor="#4CAF50";
+    welcomeBtn.textContent="Thanks for visiting!😊";
+    welcomeBtn.style.backgroundColor="#d42020";
     welcomeBtn.style.color="white";
 });
 themeBtn.addEventListener("click",()=>{
