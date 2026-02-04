@@ -9,6 +9,10 @@ body{
     padding: 20px;
     border-radius: 8px;
 }
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
 input{
     width: 70%;
     padding: 8px;

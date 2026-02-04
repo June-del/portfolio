@@ -54,6 +54,25 @@ button hover{
     flex-wrap: wrap;
     gap: 20px;
 }
+#projects {
+  margin-top: 40px;
+}
+
+.project {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.project a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
 .project-card{
     border: 1px solid #ccc;
     padding: 15px;
